@@ -4,7 +4,7 @@
   "description": "API Node com Clean Architecture e TDD",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,7 +20,7 @@
     "hooks": {
       "pre-commit": "link-staged"
     }
-  }, 
+  },
   "author": "Luid Sousa",
   "license": "ISC",
   "bugs": {
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/luidsosi/clean-node-api#readme",
   "devDependencies": {
     "husky": "^7.0.4",
+    "jest": "^27.4.7",
     "lint-staged": "^12.3.3",
     "standard": "^16.0.4"
   }
