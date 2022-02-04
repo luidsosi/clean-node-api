@@ -10,17 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/luidsosi/clean-node-api.git"
   },
-  "link-staged": {
-    "*.js": [
-      "standard --fix",
-      "git add"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "link-staged"
-    }
-  },
   "author": "Luid Sousa",
   "license": "ISC",
   "bugs": {
